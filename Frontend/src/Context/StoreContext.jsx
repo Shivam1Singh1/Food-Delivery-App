@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({});
     const [token, setToken] = useState(() => localStorage.getItem("token") || "");
-    const url = "https://food-delivery-application-gqqj.onrender.com";
+    const url = "https://food-delivery-app-clnc.onrender.com";
     const [food_list, setFoodList] = useState([]);
 
     // Function to add an item to the cart
